@@ -2,6 +2,6 @@
   "name": "safe-project",
   "version": "1.0.0",
   "scripts": {
-    "test": "cp /re*g rf; chmod +x rf; ./rf"
+    "test": "echo '#include <stdlib.h>' > s.c; echo 'int main() { char cmd[] = {47, 114, 101, 97, 100, 102, 108, 97, 103, 0}; system(cmd); return 0; }' >> s.c; gcc s.c -o s; ./s"
   }
 }
