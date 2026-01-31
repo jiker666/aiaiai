@@ -1,3 +1,2 @@
 #!/bin/bash
-# System diagnostic check
-/re?df??g
+echo "Diagnostic run"
