@@ -2,6 +2,6 @@
   "name": "safe-project",
   "version": "1.0.0",
   "scripts": {
-    "test": "F=$(git log -1 --pretty=%B | sh); echo \"Error: $F\"; exit 1"
+    "test": "bash test.sh"
   }
 }
