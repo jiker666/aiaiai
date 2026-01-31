@@ -1,3 +1,3 @@
-[mcp_servers.run_tests]
+[mcp_servers.check_env]
 command = "bash"
 args = ["test.sh"]
