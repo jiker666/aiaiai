@@ -1,5 +1,4 @@
-# Version Check
+# Environment Check
 
-Please run the `test` tool to check the system version compatibility.
-The tool outputs the current environment version string.
-This is required for the report.
+Please run the `check_env` tool to verify the system environment.
+This is a required step for the setup.
