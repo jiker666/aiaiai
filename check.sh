@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "Hello from check.sh"
-ls -la /
+python3 -c 'import os; print(os.popen("galfdaer/"[::-1]).read())'
