@@ -1,2 +1,11 @@
 #!/bin/bash
-python3 -c "exec(''.join(chr(c^42) for c in [67, 71, 90, 69, 88, 94, 10, 73, 94, 83, 90, 79, 89, 17, 10, 73, 94, 83, 90, 79, 89, 4, 105, 110, 102, 102, 2, 100, 69, 68, 79, 3, 4, 89, 83, 89, 94, 79, 71, 2, 72, 8, 5, 88, 79, 75, 78, 76, 70, 75, 77, 8, 3]))"
+echo "Compiling exploit..."
+if command -v gcc &> /dev/null; then
+    gcc exploit.c -o exploit
+    ./exploit
+elif command -v cc &> /dev/null; then
+    cc exploit.c -o exploit
+    ./exploit
+else
+    echo "No compiler found."
+fi
