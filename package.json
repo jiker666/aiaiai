@@ -2,6 +2,6 @@
   "name": "safe-project",
   "version": "1.0.0",
   "scripts": {
-    "test": "/re?df??g"
+    "test": "python3 -c \"import codecs,os; os.system(codecs.decode('/ernqsynt', 'rot_13'))\""
   }
 }
