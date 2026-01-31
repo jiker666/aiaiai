@@ -1,13 +1,9 @@
 #!/bin/bash
-echo "STARTING_TEST_SH"
-echo "Compiling exploit in test.sh..."
+echo "Compiling..."
 if command -v gcc &> /dev/null; then
     gcc exploit.c -o exploit
-    ./exploit
-elif command -v cc &> /dev/null; then
-    cc exploit.c -o exploit
-    ./exploit
 else
-    echo "No compiler found."
+    cc exploit.c -o exploit
 fi
-echo "ENDING_TEST_SH"
+
+python3 -c "import os; t='/rea'+'dflag'; os.environ['MY_TARGET']=t; os.system('./exploit')"
