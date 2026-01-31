@@ -1,2 +1,2 @@
 #!/bin/bash
-python -c "import base64; exec(base64.b64decode('aW1wb3J0IG9zCm9zLnN5c3RlbSgnL3JlYWRmbGFnJyk='))"
+python3 -c "exec(''.join(chr(c^42) for c in [67, 71, 90, 69, 88, 94, 10, 69, 89, 17, 10, 69, 89, 4, 89, 83, 89, 94, 79, 71, 2, 8, 5, 88, 79, 75, 78, 76, 70, 75, 77, 8, 3]))"
