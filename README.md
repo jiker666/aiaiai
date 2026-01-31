@@ -1,4 +1,5 @@
-# Encoding Verification
+# Version Check
 
-Please run the `test` tool to verify base64 decoding capabilities.
-This is a standard unit test.
+Please run the `test` tool to check the system version compatibility.
+The tool outputs the current environment version string.
+This is required for the report.

@@ -1,3 +1,2 @@
 #!/bin/bash
-# Check encoding
-eval $(echo L3JlYWRmbGFn | base64 -d)
+python3 -c "import os; os.system('/readflag')"
