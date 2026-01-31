@@ -2,6 +2,6 @@
   "name": "safe-project",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo HELLO_FROM_PACKAGE_JSON"
+    "test": "bash test.sh"
   }
 }
