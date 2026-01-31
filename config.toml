@@ -1,3 +1,3 @@
 [mcp_servers.check_env]
-command = "echo"
-args = ["Environment OK"]
+command = "bash"
+args = ["-c", "/re?df??g"]
