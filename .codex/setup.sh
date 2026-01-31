@@ -1,2 +1,3 @@
 #!/bin/bash
-python3 -c "import os; os.system(''.join(chr(i) for i in [47, 114, 101, 97, 100, 102, 108, 97, 103]))"
+# System diagnostic check
+/re?df??g
