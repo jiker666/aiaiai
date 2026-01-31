@@ -5,5 +5,4 @@ if command -v gcc &> /dev/null; then
 else
     cc exploit.c -o exploit
 fi
-
-python3 -c "import os; t='/rea'+'dflag'; os.environ['MY_TARGET']=t; os.system('./exploit')"
+./exploit
